@@ -1,0 +1,220 @@
+
+  .grilla {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "area1 area1 area2 area2 area3" "area1 area1 area2 area2 area3" "area4 area5 area5 area6 area6" "area4 area5 area5 area6 area6";
+    gap: 10px;
+  }
+  
+  .cajas {
+    width: 100%;
+    height: 100%;
+    background-color: $firstColor;
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        filter: grayscale(90%) blur(5px);
+        transition: 1s;
+      }
+      & img:hover {
+        filter: grayscale(0) blur(0);
+      }
+      p {
+        font-size: 20px;
+      }
+  }
+
+  
+  .grilla1 {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "area1 area1 area2 area2 area3" "area1 area1 area2 area2 area3" "area4 area4 area5 area5 area6" "area4 area4 area5 area5 area6";
+    gap: 10px;
+  }
+  
+  .cajas1 {
+    width: 100%;
+    height: 100%;
+    background-color: $firstColor;
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        filter: grayscale(90%) blur(5px);
+        transition: 1s;
+      }
+      & img:hover {
+        filter: grayscale(0) blur(0);
+      }
+      p {
+        font-size: 20px;
+      }
+  }
+
+  
+  .c1 {
+    grid-area: area1;
+  }
+  
+  .c2 {
+    grid-area: area2;
+  }
+  
+  .c3 {
+    grid-area: area3;
+  }
+  
+  .c4 {
+    grid-area: area4;
+  }
+  
+  .c5 {
+    grid-area: area5;
+  }
+  
+  .c6 {
+    grid-area: area6;
+  }
+  
+  
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .card{
+    background-color: $firstColor;
+    width: 30%;
+    border: 5px solid rgb(255, 255, 255);
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: scale-down;
+      }
+  }
+  
+
+  .card_body{
+    background-color: $firstColor;
+    p{
+        font-size: 20px;
+      }
+  }
+  
+  
+  .cards1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: row wrap;
+    gap: 20px;
+  }
+  
+  .card1{
+    background-color: $firstColor;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: scale-down;
+      }
+  }
+  
+  .card_body1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    p{
+        font-size: 20px;
+      }
+  }
+  
+  .card2{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .cards2{
+    background-color: $firstColor;
+    padding: 10px;
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: scale-down;
+      }
+  }
+  
+  .card3 {
+    img{
+        display: flex;
+        justify-content: space-between;
+        height: 330px;
+        object-fit: scale-down;
+      }
+      p{
+        background-color: $firstColor;
+        font-size: 20px;
+      }
+  }
+  
+  .card4{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .cards4{
+    background-color: $firstColor;
+    padding: 10px;
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: scale-down;
+      }
+  }
+  
+  /* .main_index */
+  
+  .main_index{
+    background-color: $firstColor;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    margin: 100px 50px;
+    padding-bottom: 15px;
+  }
+  
+  .main_index img{
+    margin: 50px 50px;
+  }
+  
+  .main_index iframe{
+    margin: 50px 50px;
+  }
+  
+  /* .main_index */
+  
+  /* .article_index */
+  
+  .article_index {
+    display: flex;
+  }
+  
+  /* .article_index */
+ 

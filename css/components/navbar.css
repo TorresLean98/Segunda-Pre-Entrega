@@ -1,0 +1,159 @@
+.body_index4 nav li {
+  display: inline-block;
+  margin: 50px 50px;
+  padding-left: 50px;
+}
+
+.body_index4 nav li a {
+  text-decoration: none;
+  color: black;
+  background-color: #FFE4C4;
+}
+
+.nav {
+  background-color: #FFE4C4;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  align-items: center;
+}
+.nav .list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE4C4;
+  gap: 100px;
+  border: 2px solid transparent;
+  padding: 3px;
+  transition: 1s;
+}
+.nav .nav-link {
+  align-items: center;
+  border: 10px solid transparent;
+  transition: 1s;
+}
+.nav .nav-link:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.nav1 {
+  background-color: #FFE4C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  gap: 250px;
+  list-style-type: none;
+  font-size: 40px;
+}
+.nav1 .list1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE4C4;
+  gap: 100px;
+  padding: 3px;
+}
+.nav1 .nav-link1 {
+  color: black;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  border: 10px solid transparent;
+  transition: 1s;
+}
+.nav1 .nav-link1:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.nav2 {
+  background-color: #FFE4C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  font-size: 40px;
+}
+.nav2 .list2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE4C4;
+  gap: 100px;
+}
+.nav2 .nav-link2 {
+  align-items: center;
+  border: 10px solid transparent;
+  transition: 1s;
+}
+.nav2 .nav-link2:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.nav3 {
+  background-color: #FFE4C4;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  align-items: center;
+  font-size: 40px;
+}
+.nav3 .list3 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE4C4;
+  gap: 100px;
+}
+.nav3 .nav-link3 {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  border: 10px solid transparent;
+  transition: 1s;
+}
+.nav3 .nav-link3:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.nav4 {
+  background-color: #FFE4C4;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  gap: 250px;
+  align-items: center;
+  list-style-type: none;
+  font-size: 40px;
+}
+.nav4 .list4 {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.nav4 .nav-link4 {
+  align-items: center;
+  border: 10px solid transparent;
+  transition: 1s;
+}
+.nav4 .nav-link4:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=navbar.css.map */
