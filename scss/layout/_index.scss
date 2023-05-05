@@ -157,6 +157,37 @@
         object-fit: scale-down;
       }
   }
+
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+  .imagen-container {
+    width: 30%; 
+    margin-bottom: 20px;
+      img {
+      height: 400px;
+      width: 400px;
+      margin: auto;
+      cursor: pointer;
+      transition: 2s;
+      }
+      & img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+        }
+    }
+      
+  .imagen-container p {
+    background-color: $firstColor;
+    border: 3px solid black;
+    font-size: 20px;
+    border: none;
+  }
   
   .card3 {
     img{

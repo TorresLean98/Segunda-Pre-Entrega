@@ -1,17 +1,74 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |     background-color: $firstColor;
- *   |                       ^^^^^^^^^^^
- *   '
- *   scss\components\footer.scss 2:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      background-color: $firstColor;\d\a   \2502                        ^^^^^^^^^^^\a   \2575 \a   scss\\components\\footer.scss 2:23  root stylesheet";
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+.footer {
+  background-color: #ffe4c4;
+  padding-block: 15px;
+  padding: 20px 0;
 }
+
+.footer_img1 img {
+  width: 300px;
+  height: 400px;
+  transform: translateX(0px);
+  animation: float 6s ease-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.p_1 {
+  color: black;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-media {
+  display: inline-block;
+  font-size: 0;
+}
+
+.social-media .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #333;
+  font-size: 20px;
+  line-height: 50px;
+  transition: transform 0.3s;
+}
+
+.social-media .icon:hover {
+  transform: scale(1.1);
+}
+
+.social-media .icon.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social-media .icon.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.social-media .icon.instagram {
+  background-color: #c13584;
+  color: #fff;
+}
+
+/*# sourceMappingURL=footer.css.map */
